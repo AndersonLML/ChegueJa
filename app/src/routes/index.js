@@ -15,7 +15,7 @@ const Stack = createStackNavigator();
 
 const Routes = () => (
     <NavigationContainer ref={navigationRef}>
-        <Stack.Navigator initialRouteName="Login">
+        <Stack.Navigator initialRouteName="Home">
             <Stack.Screen
                 options={{headerShown: false}}
                 name="Login"
